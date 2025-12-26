@@ -2,9 +2,13 @@ body {
   font-family: Arial, sans-serif;
   display: flex;
   height: 100vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #002252;
+}
+body h1{
+  color: white;
 }
 
 .calculator {
